@@ -1,387 +1,1453 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="o1WmBXONM2Y_2EoiyM1B17lTrxUwoAtCAcYIjy63u2E" />
-    <title>JK Space</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
-    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
-  </head>
-  <body class="bg-light" id="top">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <header class="d-print-none">
-      <div class="container text-center text-lg-left">
-        <div class="pt-4 clearfix">
-          <h1 class="site-title mb-0">JKK Space</h1>
-          <div class="site-nav"> 
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#project" title="Project"><span class="menu-title">Project</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
-                </li
-              </ul>
-            </nav>
-          </div>
-        </div>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="o1WmBXONM2Y_2EoiyM1B17lTrxUwoAtCAcYIjy63u2E" />
+
+  <!-- SEO & Metadata -->
+  <title>Jeremiah K. Kamara | Data Scientist • AI/ML Developer • Researcher</title>
+  <meta name="description"
+    content="Jeremiah K. Kamara — M.Tech Data Science student, AI/ML developer, researcher, teaching assistant, and technology builder working across Data Science, Artificial Intelligence, and intelligent software systems." />
+  <meta name="keywords"
+    content="Jeremiah K. Kamara, Jeremiah Kamara, Data Science, AI Developer, Machine Learning, T-XMER, Multimodal AI, Explainable AI, Libemex, Frontend Developer, Teaching Assistant, Rajkot, Gujarat" />
+  <meta name="author" content="Jeremiah K. Kamara" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeremara.github.io/JK-website/" />
+  <meta property="og:title" content="Jeremiah K. Kamara | Data Scientist • AI/ML Developer • Researcher" />
+  <meta property="og:description"
+    content="Building intelligent systems where Data, AI, and Human-Centered Technology meet." />
+  <meta property="og:image" content="images/jkk-logo.png" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@miahmara10" />
+  <meta name="twitter:title" content="Jeremiah K. Kamara | Data Scientist • AI/ML Developer • Researcher" />
+  <meta name="twitter:description"
+    content="Building intelligent systems where Data, AI, and Human-Centered Technology meet." />
+  <meta name="twitter:image" content="images/jkk-logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/jkk-logo.png" />
+  <link rel="apple-touch-icon" href="images/jkk-logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet" />
+
+  <!-- Modern Stylesheet -->
+  <link href="css/main.css?ver=2.1.0" rel="stylesheet" />
+</head>
+
+<body id="top">
+  <!-- ======================================================================
+         1. NAVIGATION BAR
+         ====================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo using JKK Uploaded Logo (No text as requested) -->
+      <a href="#top" class="brand-logo" title="JKK — Jeremiah K. Kamara">
+        <img src="images/jkk-logo.png" alt="JKK Logo" class="brand-logo-img" />
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a class="nav-link active" href="#hero">Home</a>
+        <a class="nav-link" href="#building">Focus</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#journey">Journey</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#research">Research</a>
+        <a class="nav-link" href="#libemex">Libemex</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Theme Switcher Button -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" type="button" title="Switch Theme"
+          aria-label="Toggle dark and light theme">
+          <i id="themeToggleIcon" class="fas fa-sun"></i>
+        </button>
+
+        <!-- CV Resume Button (Desktop) -->
+        <a href="Jeremiah-Kamara-CV.pdf" target="_blank" class="btn btn-primary btn-sm d-none-mobile"
+          title="Download CV / Resume">
+          <i class="fas fa-file-pdf"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="mobileMenuBtn" class="mobile-toggle-btn" type="button" aria-label="Toggle navigation menu"
+          aria-expanded="false">
+          <i id="mobileMenuIcon" class="fas fa-bars"></i>
+        </button>
       </div>
-    </header>
-    <div class="page-content">
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a class="mobile-nav-link" href="#hero">Home <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#building">Currently Building <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#about">About Profile <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#journey">Tech Journey <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#skills">Skills & Toolkit <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#research">T-XMER Research <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#libemex">Libemex Initiative <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#projects">Project Portfolio <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#experience">Experience & TA <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#education">Education & Certs <i class="fas fa-arrow-right"></i></a>
+      <a class="mobile-nav-link" href="#contact">Contact & Connect <i class="fas fa-arrow-right"></i></a>
+      <div style="margin-top: 1rem; display: flex; gap: 0.75rem;">
+        <a href="Jeremiah-Kamara-CV.pdf" target="_blank" class="btn btn-primary" style="width: 100%;">
+          <i class="fas fa-file-pdf"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+           2. HERO SECTION
+           ====================================================================== -->
+    <section class="hero-section" id="hero">
       <div class="container">
-<div class="resume-container">
-  <div class="shadow-1-strong bg-white my-5" id="intro">
-    <div class="bg-info text-white">
-      <div class="cover bg-image"><img src="images/Header_background.jpg"/>
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);backdrop-filter: blur(2px);">
-          <div class="text-center p-5">
-            <div class="avatar p-1"><img class="img-thumbnail shadow-2-strofng" style="border-radius:30px;" src="images/miah.jpg" width="150" height="150"/></div>
-            <div class="header-bio mt-3">
-              <div data-aos="zoom-in" data-aos-delay="0">
-                <h2 class="h1">Jeremiah K Kamara</h2>
-                <p>AI & ML Developer | Front-end Developer | Graphic Designer</p>
+        <div class="hero-grid">
+          <!-- Hero Left Column: Narrative & CTA -->
+          <div class="hero-content" data-animate>
+            <!-- Live Status Pill -->
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Open for AI & Data Science Collaborations</span>
+            </div>
+
+            <!-- Name & Positioning -->
+            <h1 class="hero-name">
+              Jeremiah K. <span class="gradient-text">Kamara</span>
+            </h1>
+
+            <div class="hero-tagline">
+              M.Tech Data Science | AI/ML Developer | Researcher | Technology Builder
+            </div>
+
+            <!-- Core Statement -->
+            <p class="hero-description">
+              Building intelligent systems where <strong>Data</strong>, <strong>AI</strong>, and
+              <strong>Human-Centered Technology</strong> meet. Focused on transforming multimodal learning,
+              machine intelligence, and analytics into robust, practical solutions.
+            </p>
+
+            <!-- Hero Actions Cluster -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <i class="fas fa-layer-group"></i>
+                <span>Explore My Work</span>
+              </a>
+              <a href="#research" class="btn btn-secondary btn-lg">
+                <i class="fas fa-brain"></i>
+                <span>View Research</span>
+              </a>
+              <a href="Jeremiah-Kamara-CV.pdf" target="_blank" class="btn btn-outline btn-lg">
+                <i class="fas fa-download"></i>
+                <span>Download CV</span>
+              </a>
+              <a href="#contact" class="btn btn-outline btn-lg">
+                <i class="fas fa-paper-plane"></i>
+                <span>Let's Connect</span>
+              </a>
+            </div>
+
+            <!-- Social Links (Facebook removed as requested) -->
+            <div class="hero-socials">
+              <a href="https://github.com/Jeremara/" target="_blank" class="social-icon-btn" title="GitHub Profile"
+                aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/jeremiah-k-kamara-068439274/" target="_blank" class="social-icon-btn"
+                title="LinkedIn Profile" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://twitter.com/miahmara10/" target="_blank" class="social-icon-btn" title="Twitter / X"
+                aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/jeremiahkkamara/" target="_blank" class="social-icon-btn"
+                title="Instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Interactive Neural Canvas & Visual Elements -->
+          <div class="hero-visual" data-animate>
+            <div class="canvas-container">
+              <canvas id="heroCanvas" aria-label="Interactive Neural Network Visualization"></canvas>
+
+              <!-- Floating Stat Pill: T-XMER -->
+              <div class="floating-card top-right">
+                <div class="floating-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <div class="floating-meta">
+                  <h4>T-XMER</h4>
+                  <p>Trustworthy Multimodal AI</p>
+                </div>
               </div>
-              <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
-                <nav role="navigation">
-                  <ul class="nav justify-content-center">
-                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/miahmara10/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/jeremiahkkamara/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/jeremiahkkamara/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/Jeremara/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jeremiah-k-kamara-068439274/" title="Linkedin"><i class='fab fa-linkedin'></i><span class="menu-title sr-only">Github</span></a>
-                    </li>
-                  </ul>
-                </nav>
+
+              <!-- Floating Stat Pill: M.Tech CE -->
+              <div class="floating-card bottom-left">
+                <div class="floating-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="floating-meta">
+                  <h4>M.Tech CE</h4>
+                  <p>Data Science Specialization</p>
+                </div>
               </div>
-              <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="Jeremiah-Kamara-CV.pdf" data-aos="fade-right" data-aos-delay="700">Download Resume</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="about">
-    <div class="about-section">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="h2 fw-light mb-4">About Me</h2>
-          <p>Hello! I’m Jeremiah Kamara, a B.Tech graduate in Computer Engineering with a specialization in Artificial Intelligence. I am passionate about AI, machine learning, data analysis, and web development, with a strong interest in building intelligent and practical tech solutions.
-            I am a fast learner, detail-oriented, and a reliable team player committed to continuous growth and delivering high-quality results.</p>
-          <p>I am also skilled with the following programming language: Python, Java, C, C++, HTML, CSS, JavaScript, Dart, SQL, TypeScript </p>
-          
-        </div>
-        <div class="col-md-5 offset-lg-1">
-          <div class="row mt-2">
-            <h2 class="h2 fw-light mb-4">Bio</h2>
-            <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
-            </div>
-            <div class="col-sm-7">
-              <div class="pb-2">miahmara10@gmial.com</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
-            </div>
-            <div class="col-sm-7">
-              <div class="pb-2">+231-776-272-061/+91-9909-437-231</div>
-            </div>
-            <div class="col-sm-5">
-              <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Address</div>
-            </div>
-            <div class="col-sm-7">
-              <div class="pb-2">Rajkot, Gujurat, India</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
-    <div class="skills-section">
-      <h2 class="h2 fw-light mb-4">Professional Skills</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="mb-3"><span class="fw-bolder">Web Development</span>
-            <div class="progress my-2 rounded" style="height: 20px">
-              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">intermediate</div>
-            </div>
-          </div>
-          <div class="mb-3"><span class="fw-bolder">Graphic Design</span>
-            <div class="progress my-2 rounded" style="height: 20px">
-              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Expert</div>
-            </div>
-          </div>
-          <div class="mb-3"><span class="fw-bolder">SQL</span>
-            <div class="progress my-2 rounded" style="height: 20px">
-              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance</div>
-            </div>
-          </div>
-          <div class="mb-3"><span class="fw-bolder">Machine Learning</span>
-            <div class="progress my-2 rounded" style="height: 20px">
-              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 55%" aria-valuenow="5/5" aria-valuemin="0" aria-valuemax="100">intermediate</div>
-            </div>
-          </div>
-          <div class="mb-3"><span class="fw-bolder">Computer Vision</span>
-            <div class="progress my-2 rounded" style="height: 20px">
-              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 55%" aria-valuenow="5/5" aria-valuemin="0" aria-valuemax="100">intermediate</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
-    <div class="work-experience-section">
-      <h2 class="h2 fw-light mb-4">Work Experience</h2>
-      <div class="timeline">
-        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Frontend Developer <span class="text-muted h6">at WDJC</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">January, 2023 - Present</div>
-            <div>I craft captivating digital experiences through elegant front-end development. With a keen eye for design and a passion for user-centric solutions, I bring websites to life with clean code and seamless functionality. 
-              Explore my projects below and discover how I can elevate your online presence.</div>
-          </div>
-        </div>
-        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Graphic Designer <span class="text-muted h6">at Jtech Home</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">June, 2019 - May, 2023</div>
-            <div>From captivating logos to stunning brand identities, each project is infused with thoughtfulness and precision.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="education">
-    <div class="education-section">
-      <h2 class="h2 fw-light mb-4">Education</h2>
-      <div class="timeline">
-        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Marwadi University <span class="text-muted h6">Completed</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2022 - 2026</div>
-            <div>Bachelor of Computer Engineering Specialization In Artificial Intelligence</div>
-          </div>
-        </div>
-        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Certificate in Canva <span class="text-muted h6">from Coursera</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2023 - 2024</div>
-            <div>This certificate symbolizes my passion for creativity, meticulous attention to detail, and dedication to delivering exceptional visual solutions.</div>
-          </div>
-        </div>
-        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Certificate in Data Analytic <span class="text-muted h6">from CISCO</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2022 - 2023</div>
-            <div>My journey through the prestigious Cisco Data Analytics program equipped me with the skills and knowledge to become a strategic asset in the data-driven landscape.</div>
-          </div>
-        </div>
-        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Certificate in Python <span class="text-muted h6">from Coursera</span></div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2022 - 2023</div>
-            <div>Achieving a certificate in Python at the Coursera program empowered my skills and understanding of Python programming language.</div>
-          </div>
-        </div>
-        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
-          <div class="timeline-head px-4 pt-3">
-            <div class="h5">Certificate in C and C++ <span class="text-muted h6">from CISCO</span>          </div>
-          </div>
-          <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">2022 - 2023</div>
-            <div>Delving into C and C++ at Cisco fortified my programming foundation, making the transition to Python feel like a natural evolution. Now I'm fluent in both low-level control and high-level elegance.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="project">
-    <div class="project-section">
-      <h2 class="h2 fw-light mb-4">Project</h2>
-      <h2 class="h2 fw-light mb-4"><a href="https://github.com/Jeremara" target="_blank">View More</a></h2>
-      <div class="row g-0">
-        <div class="col-md-6"><a href="https://captiongenerator.streamlit.app/" target="_blank"><img class="img-fluid" src="images/Caption_Generator.png" width="800" height="500"/></a></div>
-        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
-          <div class="m-4 mt-md-2">
-  
-            <h3>Caption Generator App</h3>
-            <p class="text-muted">Built highly performant caption Generator platform with python Framework Streamlit. It generate caption for social media platform</p>
-          </div>
-        </div>
-      </div>
-      <div class="row g-0 project-reverse">
-        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-          <div class="m-4 mt-md-2 text-end">
-            
-            <h3>Jtech Home</h3>
-            <p class="text-muted">At the intersection of creativity and technology lies with passion and   
-              with a focus on user experience and visual aesthetics.</p>
-          </div>
-        </div>
-        <div class="col-md-6"><a href="https://jeremara.github.io/Jtechhome.io/" target="_blank"><img class="img-fluid" src="images/jtechhome.png" width="800" height="500"/></a></div>
-      </div>
-      <div class="row g-0">
-        <div class="col-md-6"><a href="https://resumeranker-h9gjayh8faceg3c0.canadacentral-01.azurewebsites.net/" target="_blank"><img class="img-fluid" src="images/resumeranker.png" width="800" height="500"/></a></div>
-        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
-          <div class="m-4 mt-md-2">
-  
-            <h3>Miah AI Resume Ranker</h3>
-            <p class="text-muted">This is ResumeRanker integrated with Azure OpenAI is an application designed to intelligently evaluate, rank, and match resumes against job descriptions using advanced language models hosted on Microsoft Azure. 
-              This tool leverages natural language understanding and semantic matching to streamline hiring processes and improve candidate selection.</p>
-          </div>
-        </div>
-      </div>
-  <div class="row g-0 project-reverse">
-        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-          <div class="m-4 mt-md-2 text-end">
-            
-            <h3>QR Code Generator</h3>
-            <p class="text-muted">This QR Code Generator developed using Streamlit is a simple, interactive web application that allows users to create QR codes instantly from input text or URLs.
-            It leverages the Streamlit framework for building sleek, responsive user interfaces with minimal code, combined with a QR code library like qrcode or segno for generating QR images.
+    </section>
+
+    <!-- ======================================================================
+           3. CURRENTLY BUILDING SECTION
+           ====================================================================== -->
+    <section class="section" id="building">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-bolt"></i> Current Focus
+          </span>
+          <h2 class="section-title">Currently Building & Exploring</h2>
+          <p class="section-subtitle">
+            Active research programs, technology initiatives, and software engineering systems.
           </p>
-          </div>
         </div>
-        <div class="col-md-6"><a href="https://qr-codegenerator.streamlit.app/" target="_blank"><img class="img-fluid" src="images/qrcode.png" width="800" height="500"/></a></div>
-      </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="references">
-    <div class="reference-section">
-      <h2 class="h2 fw-light mb-4">References</h2>
-      <div class="row"> 
-        <div class="col-md-6">
-          <div class="d-flex mb-2">
-            <div class="avatar"><img src="images/philip.jpg" width="60" height="60"/></div>
-            <div class="header-bio m-3 mb-0">
-              <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Philip F. Yilliah</h3>
-              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Programmer</p>
+
+        <div class="building-grid">
+          <!-- Item 1: T-XMER -->
+          <div class="building-card" data-animate>
+            <div class="building-status">
+              <span class="status-indicator research"></span>
+              <span style="color: var(--accent-primary);">Research</span>
+            </div>
+            <h3 class="building-title">T-XMER</h3>
+            <p class="building-desc">
+              Trustworthy Multimodal Emotion Recognition investigating model reliability and explanation
+              faithfulness across noisy, missing, and conflicting modalities.
+            </p>
+            <div class="building-chips">
+              <span class="chip">Multimodal AI</span>
+              <span class="chip">Explainable AI</span>
+              <span class="chip">Trustworthy AI</span>
             </div>
           </div>
-          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Jeremiah displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="d-flex mb-2">
-            <div class="avatar"><img src="images/David.png" width="60" height="60"/></div>
-            <div class="header-bio m-3 mb-0">
-              <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">David Dakor</h3>
-              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Web Desigher</p>
+
+          <!-- Item 2: Libemex -->
+          <div class="building-card" data-animate>
+            <div class="building-status">
+              <span class="status-indicator building"></span>
+              <span style="color: var(--accent-secondary);">Building</span>
+            </div>
+            <h3 class="building-title">Libemex</h3>
+            <p class="building-desc">
+              A technology-focused initiative turning ideas into practical digital products, automated workflows,
+              and emerging AI tools for meaningful impact.
+            </p>
+            <div class="building-chips">
+              <span class="chip">AI Innovation</span>
+              <span class="chip">Automation</span>
+              <span class="chip">Digital Products</span>
             </div>
           </div>
-          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Jeremiah is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</p>
+
+          <!-- Item 3: Data Science -->
+          <div class="building-card" data-animate>
+            <div class="building-status">
+              <span class="status-indicator active"></span>
+              <span style="color: var(--accent-emerald);">Active</span>
+            </div>
+            <h3 class="building-title">Data Science</h3>
+            <p class="building-desc">
+              Developing end-to-end data analytics pipelines, exploratory modeling, statistical hypothesis testing,
+              and predictive machine learning solutions.
+            </p>
+            <div class="building-chips">
+              <span class="chip">Analytics</span>
+              <span class="chip">Predictive ML</span>
+              <span class="chip">Visualization</span>
+            </div>
+          </div>
+
+          <!-- Item 4: AI Systems -->
+          <div class="building-card" data-animate>
+            <div class="building-status">
+              <span class="status-indicator exploring"></span>
+              <span style="color: var(--accent-amber);">Exploring</span>
+            </div>
+            <h3 class="building-title">AI Systems & Agents</h3>
+            <p class="building-desc">
+              Engineering practical applications combining generative AI, LLM embeddings, agentic pipelines, and
+              responsive frontend interfaces.
+            </p>
+            <div class="building-chips">
+              <span class="chip">LLMs & Agents</span>
+              <span class="chip">Azure OpenAI</span>
+              <span class="chip">Streamlit</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
-    <div class="contant-section">
-      <h2 class="h2 fw-light text mb-4">Contact</h2>
-      <div class="row mb-4">
-        <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
-          <div class="mt-1">
-            <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +91-9909-437-231</div>
-            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> miahmara10@gmila.com</div>
-          </div>
-          <div class="mt-5 d-print-none"><form action="https://formsubmit.co/80e2216bbe7a1452d943fa478c2f210a"
-    method="POST">
-  <div class="form-outline mb-4">
-    <input type="text" id="name" class="form-control" required/>
-    <label class="form-label" for="name">Name</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="email" id="email" class="form-control" required/>
-    <label class="form-label" for="email">Email address</label>
-  </div>
-  <div class="form-outline mb-4">
-    <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
-    <label class="form-label" for="message">Message</label>
-  </div>
-  <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
-</form>
-          </div>
-        </div>
-        <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17551.649541728482!2d70.79946711237174!3d22.361942049337248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c972761ce515%3A0x3651e3fe1e9df4f8!2sMarwadi%20University!5e0!3m2!1sen!2sin!4v1688721925337!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-      </div>
-    </div>
-  </div>
-</div></div>
-    </div>
-    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+    </section>
+
+    <!-- ======================================================================
+           4. ABOUT SECTION
+           ====================================================================== -->
+    <section class="section" id="about">
       <div class="container">
-        <div class="my-3">
-          <div class="h4">Jeremiah K Kamara</div>
-          <div class="footer-nav">
-            <nav role="navigation">
-              <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="https://twitter.com/miahmara10/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/jeremiahkkamara/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/jeremiahkkamara/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://github.com/Jeremara/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jeremiah-k-kamara-068439274/" title="Linkedin"><i class='fab fa-linkedin'></i><span class="menu-title sr-only">Github</span></a>
-                </li>
-              </ul>
-            </nav>
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-user"></i> Profile
+          </span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Bridging mathematical data science, modern artificial intelligence, and intuitive human interfaces.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Profile Card -->
+          <div class="about-card-profile" data-animate>
+            <div class="avatar-wrapper">
+              <img src="images/miah.jpg" alt="Jeremiah K. Kamara" class="avatar-img" />
+              <div class="avatar-badge" title="JKK">
+                <img src="images/jkk-logo.png" alt="JKK" class="avatar-badge-img" />
+              </div>
+            </div>
+            <h3 class="profile-name">Jeremiah K. Kamara</h3>
+            <p class="profile-role">M.Tech Data Science & AI/ML Developer</p>
+
+            <div class="profile-info-list">
+              <div class="info-item">
+                <i class="fas fa-envelope info-icon"></i>
+                <span class="info-label">Email:</span>
+                <span class="info-value">miahmara10@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone info-icon"></i>
+                <span class="info-label">Phone:</span>
+                <span class="info-value">+231-776-272-061 / +91-9909-437-231</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt info-icon"></i>
+                <span class="info-label">Location:</span>
+                <span class="info-value">Rajkot, Gujarat, India</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-graduation-cap info-icon"></i>
+                <span class="info-label">Degree:</span>
+                <span class="info-value">M.Tech Data Science (Pursuing)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Narrative & Spotlight -->
+          <div class="about-text-wrapper" data-animate>
+            <p class="about-p">
+              I am <strong>Jeremiah K. Kamara</strong>, an M.Tech Data Science student, AI/ML developer,
+              researcher, teaching assistant, and technology builder. My work sits at the active intersection of
+              <strong>artificial intelligence</strong>, <strong>data science</strong>,
+              <strong>software engineering</strong>, and <strong>human-centered technology</strong>.
+            </p>
+            <p class="about-p">
+              I enjoy transforming complex theoretical models into practical software systems, investigating
+              trustworthy and explainable AI under real-world constraints, and developing digital products that solve
+              genuine user problems.
+            </p>
+            <p class="about-p">
+              My primary research and engineering focus includes multimodal AI, machine learning robustness,
+              explanation faithfulness, high-dimensional data analytics, generative AI, and modern web applications.
+            </p>
+
+            <!-- Teaching Assistant Spotlight Card -->
+            <div class="ta-spotlight-card">
+              <div class="ta-icon-box">
+                <i class="fas fa-chalkboard-teacher"></i>
+              </div>
+              <div class="ta-content">
+                <h3>Teaching Assistant — CE & Data Science</h3>
+                <p>
+                  Active academic role at Marwadi University providing technical support, student mentoring,
+                  practical lab facilitation for programming & data science coursework, and academic research
+                  collaboration.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="text-small">
-          <div class="mb-1">&copy; JKK Space. All rights reserved.</div>
-          <div>Design - <a href="#" target="_blank">Jeremiah Kamara</a></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           5. TECH JOURNEY ROADMAP
+           ====================================================================== -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-road"></i> Evolution
+          </span>
+          <h2 class="section-title">My Technical Journey</h2>
+          <p class="section-subtitle">
+            A deliberate progression from foundational computing to advanced data science and trustworthy AI.
+          </p>
+        </div>
+
+        <div class="journey-track">
+          <!-- Step 1 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">01</span>
+            <h3 class="step-title">Computer Engineering</h3>
+            <p class="step-desc">
+              Core computational theory, algorithms, data structures, low-level programming (C/C++), and system design.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">02</span>
+            <h3 class="step-title">Artificial Intelligence</h3>
+            <p class="step-desc">
+              Specialized in AI architectures, neural networks, machine learning algorithms, and deep learning
+              pipelines.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">03</span>
+            <h3 class="step-title">Software Development</h3>
+            <p class="step-desc">
+              Building responsive frontend applications, Streamlit portals, REST APIs, and user-centric interfaces.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">04</span>
+            <h3 class="step-title">Data Science</h3>
+            <p class="step-desc">
+              Pursuing M.Tech Data Science: statistical modeling, exploratory analytics, and large-scale data workflows.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">05</span>
+            <h3 class="step-title">Trustworthy AI</h3>
+            <p class="step-desc">
+              Investigating reliability, explanation faithfulness, and robustness across noisy & conflicting modalities.
+            </p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="journey-step" data-animate>
+            <span class="step-number">06</span>
+            <h3 class="step-title">Tech Innovation</h3>
+            <p class="step-desc">
+              Building Libemex, productizing intelligent software solutions, and driving technology-led
+              entrepreneurship.
+            </p>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
-    <script src="scripts/aos.js?ver=1.2.1"></script>
-    <script src="scripts/main.js?ver=1.2.1"></script>
-  </body>
+    </section>
+
+    <!-- ======================================================================
+           6. SKILLS SECTION
+           ====================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-tools"></i> Expertise
+          </span>
+          <h2 class="section-title">Skills & Capabilities</h2>
+          <p class="section-subtitle">
+            Structured technical proficiencies across modern data science, AI engineering, programming, and design.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: AI & Data -->
+          <div class="skill-category-card" data-animate>
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3 class="skill-cat-title">AI & Data Science</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-chip">Machine Learning</span>
+              <span class="skill-chip">Deep Learning</span>
+              <span class="skill-chip">Data Science</span>
+              <span class="skill-chip">Data Analytics</span>
+              <span class="skill-chip">Computer Vision</span>
+              <span class="skill-chip">Natural Language Processing</span>
+              <span class="skill-chip">Generative AI</span>
+              <span class="skill-chip">Explainable AI (XAI)</span>
+              <span class="skill-chip">Multimodal AI</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="skill-category-card" data-animate>
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="skill-cat-title">Programming</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+              <span class="skill-chip">C</span>
+              <span class="skill-chip">C++</span>
+              <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-chip"><i class="fab fa-js"></i> JavaScript</span>
+              <span class="skill-chip">TypeScript</span>
+              <span class="skill-chip">Dart</span>
+              <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Web & Software -->
+          <div class="skill-category-card" data-animate>
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3 class="skill-cat-title">Web & Software</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="skill-chip"><i class="fab fa-js-square"></i> JavaScript</span>
+              <span class="skill-chip">Frontend Development</span>
+              <span class="skill-chip">Streamlit Applications</span>
+              <span class="skill-chip">Responsive Web Development</span>
+              <span class="skill-chip">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Data & Tools -->
+          <div class="skill-category-card" data-animate>
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <h3 class="skill-cat-title">Data Systems & Tools</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip"><i class="fas fa-database"></i> SQL Databases</span>
+              <span class="skill-chip">Data Visualization</span>
+              <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+              <span class="skill-chip"><i class="fab fa-github"></i> GitHub</span>
+              <span class="skill-chip">Jupyter Notebooks</span>
+              <span class="skill-chip">VS Code</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Creative & Design -->
+          <div class="skill-category-card" data-animate>
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3 class="skill-cat-title">Creative Technology</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">UI/UX Design</span>
+              <span class="skill-chip">Graphic Design</span>
+              <span class="skill-chip">Visual Design</span>
+              <span class="skill-chip">Brand Identity</span>
+              <span class="skill-chip">AI-Assisted Design</span>
+              <span class="skill-chip">Canva</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           7. FEATURED RESEARCH: T-XMER
+           ====================================================================== -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-microscope"></i> Research Spotlight
+          </span>
+          <h2 class="section-title">Academic & Applied Research</h2>
+          <p class="section-subtitle">
+            Investigating the boundaries of multimodal learning, model robustness, and explanation faithfulness.
+          </p>
+        </div>
+
+        <!-- Featured Card: T-XMER -->
+        <div class="research-featured-card" data-animate>
+          <div class="research-card-inner">
+            <!-- Badges -->
+            <div class="research-badge-cluster">
+              <span class="research-badge"><i class="fas fa-tag"></i> Research Area: Trustworthy Multimodal AI</span>
+              <span class="research-badge"><i class="fas fa-bullseye"></i> Focus: Reliability + Explanation
+                Faithfulness</span>
+              <span class="research-badge"><i class="fas fa-exclamation-triangle"></i> Challenge: Noisy, Missing &
+                Conflicting Modalities</span>
+            </div>
+
+            <!-- Title -->
+            <div>
+              <h3 class="research-title">
+                <span class="research-acronym">T-XMER:</span> Trustworthy Multimodal Emotion Recognition
+              </h3>
+              <p style="font-size: 1.125rem; color: var(--text-secondary); margin-top: 0.5rem; line-height: 1.6;">
+                <em>Evaluating Reliability and Explanation Faithfulness under Noisy, Missing, and Conflicting
+                  Modalities</em>
+              </p>
+            </div>
+
+            <!-- Research Direction Description -->
+            <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.75;">
+              Multimodal Emotion Recognition (MER) models frequently experience performance collapse and explanation
+              degradation when real-world inputs suffer from sensory noise, dropped modalities, or contradictory
+              cross-modal signals. T-XMER develops evaluation protocols and methodological frameworks to measure model
+              robustness and verify whether explanation mechanisms remain faithful when modalities are impaired.
+            </p>
+
+            <!-- Pillars Grid -->
+            <div class="research-pillars-grid">
+              <div class="pillar-box">
+                <div class="pillar-title">Reliability Analysis</div>
+                <div class="pillar-val">Assessing performance resilience against corrupted and incomplete sensory data
+                  streams.</div>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-title">Explanation Faithfulness</div>
+                <div class="pillar-val">Verifying that feature attributions mirror actual model reasoning without
+                  hallucination.</div>
+              </div>
+              <div class="pillar-box">
+                <div class="pillar-title">Cross-Modal Conflict</div>
+                <div class="pillar-val">Disentangling contradictory signals across audio, visual, and textual
+                  modalities.</div>
+              </div>
+            </div>
+
+            <!-- Keywords -->
+            <div class="research-keywords">
+              <span
+                style="font-weight: 700; font-size: 0.875rem; color: var(--text-primary); margin-right: 0.5rem;">Keywords:</span>
+              <span class="keyword-tag">Multimodal Learning</span>
+              <span class="keyword-tag">Explainable AI</span>
+              <span class="keyword-tag">Robust AI</span>
+              <span class="keyword-tag">Trustworthy AI</span>
+              <span class="keyword-tag">Emotion Recognition</span>
+            </div>
+
+            <!-- Action Button -->
+            <div>
+              <button type="button" class="btn btn-primary" data-modal-target="researchModal">
+                <i class="fas fa-file-alt"></i>
+                <span>Research Deep Dive</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           8. FEATURED INITIATIVE: LIBEMEX
+           ====================================================================== -->
+    <section class="section" id="libemex">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-lightbulb"></i> Technology Initiative
+          </span>
+          <h2 class="section-title">Featured Brand — Libemex</h2>
+          <p class="section-subtitle">
+            Turning technology, artificial intelligence, and innovative ideas into practical solutions.
+          </p>
+        </div>
+
+        <div class="libemex-featured-card" data-animate>
+          <div class="libemex-grid">
+            <!-- Left Narrative -->
+            <div>
+              <div class="libemex-tagline">Technology &rarr; Ideas &rarr; Solutions</div>
+              <h3 class="libemex-title">Libemex</h3>
+              <p class="libemex-desc">
+                Libemex explores practical applications of AI, software, automation, digital products, and emerging
+                technologies with the goal of turning ideas into useful solutions.
+              </p>
+
+              <div class="libemex-pillars-list">
+                <div class="libemex-pillar-item"><i class="fas fa-robot"></i> Artificial Intelligence</div>
+                <div class="libemex-pillar-item"><i class="fas fa-code"></i> Software Development</div>
+                <div class="libemex-pillar-item"><i class="fas fa-cogs"></i> Intelligent Automation</div>
+                <div class="libemex-pillar-item"><i class="fas fa-mobile-alt"></i> Digital Products</div>
+                <div class="libemex-pillar-item"><i class="fas fa-book-reader"></i> Technology Education</div>
+                <div class="libemex-pillar-item"><i class="fas fa-rocket"></i> Practical Innovation</div>
+              </div>
+
+              <button type="button" class="btn btn-primary" data-modal-target="libemexModal">
+                <i class="fas fa-compass"></i>
+                <span>Explore Libemex</span>
+              </button>
+            </div>
+
+            <!-- Right Brand Box: Uploaded Libemex Logo -->
+            <div class="libemex-logo-box">
+              <img src="images/libemex-logo.png" alt="Libemex — Design. Develop. Deliver." class="libemex-logo-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           9. PROJECT PORTFOLIO SECTION
+           ====================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-layer-group"></i> Portfolio
+          </span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Applied artificial intelligence, data platforms, and responsive software engineered for real-world utility.
+          </p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="project-filters" data-animate>
+          <button type="button" class="filter-btn active" data-filter="all">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="ai-ml">AI & Machine Learning</button>
+          <button type="button" class="filter-btn" data-filter="web">Software & Web</button>
+          <button type="button" class="filter-btn" data-filter="creative">Creative Technology</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project: ChromaCraft -->
+          <article class="project-card" data-category="ai-ml" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/chromacraft.png" alt="ChromaCraft — AI Color Intelligence & Palette Tool"
+                class="project-img" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">AI & Machine Learning</span>
+              <h3 class="project-title">ChromaCraft</h3>
+              <p class="project-desc">
+                An AI-powered color intelligence and harmonic palette engineering platform. Automatically extracts
+                dominant colors from uploaded images, analyzes harmonic variations (Monochromatic, Analogous,
+                Complementary, Split-Complementary), and generates intelligent, context-aware palettes.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">AI Color Intelligence</span>
+                <span class="chip">Next.js / React</span>
+                <span class="chip">Color Theory</span>
+                <span class="chip">Image Analysis</span>
+                <span class="chip">UI/UX Tool</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://chromacraft-vert.vercel.app/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 1: Miah AI Resume Ranker -->
+          <article class="project-card" data-category="ai-ml" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/resumeranker.png" alt="Miah AI Resume Ranker interface" class="project-img"
+                loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">AI & Machine Learning</span>
+              <h3 class="project-title">Miah AI Resume Ranker</h3>
+              <p class="project-desc">
+                An intelligent candidate evaluation application integrated with Azure OpenAI. Leverages natural language
+                understanding and semantic matching to evaluate, score, and rank resumes against job descriptions with
+                high accuracy.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">Azure OpenAI</span>
+                <span class="chip">Python</span>
+                <span class="chip">Streamlit</span>
+                <span class="chip">NLP</span>
+                <span class="chip">Semantic Matching</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://resumeranker-h9gjayh8faceg3c0.canadacentral-01.azurewebsites.net/" target="_blank"
+                  class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Caption Generator App -->
+          <article class="project-card" data-category="ai-ml" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/Caption_Generator.png" alt="Caption Generator App preview" class="project-img"
+                loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">AI & Machine Learning</span>
+              <h3 class="project-title">Caption Generator App</h3>
+              <p class="project-desc">
+                A machine-learning-driven caption generation platform built with Python and Streamlit. Produces tailored
+                social media
+                captions, hashtags, and contextual text based on user prompt inputs and topic categories.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">Python</span>
+                <span class="chip">Streamlit</span>
+                <span class="chip">Machine Learning</span>
+                <span class="chip">NLP</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://captiongenerator.streamlit.app/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Libex Group -->
+          <article class="project-card" data-category="web" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/libexgroup.png" alt="Libex Group — An Institutional Ecosystem" class="project-img"
+                loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">Software & Web</span>
+              <h3 class="project-title">Libex Group</h3>
+              <p class="project-desc">
+                A modern institutional ecosystem web platform designed to drive global impact across technology,
+                education, healthcare, and sports development. Features a sophisticated corporate design,
+                multi-divisional routing, and responsive engineering.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">Web Development</span>
+                <span class="chip">UI/UX Design</span>
+                <span class="chip">Responsive Web</span>
+                <span class="chip">Institutional Platform</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://libex-group.netlify.app/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: QR Code Generator -->
+          <article class="project-card" data-category="web" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/qrcode.png" alt="QR Code Generator tool" class="project-img" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">Software & Web</span>
+              <h3 class="project-title">QR Code Generator</h3>
+              <p class="project-desc">
+                An interactive web tool built with Streamlit allowing users to create customized, instantly scannable QR
+                codes from text,
+                URLs, or contact details with instant image rendering and download capabilities.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">Python</span>
+                <span class="chip">Streamlit</span>
+                <span class="chip">Web App</span>
+                <span class="chip">qrcode library</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://qr-codegenerator.streamlit.app/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Jtech Home -->
+          <article class="project-card" data-category="creative" data-animate>
+            <div class="project-img-wrap">
+              <img src="images/jtechhome.png" alt="Jtech Home branding website" class="project-img" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <span class="project-category">Creative Technology</span>
+              <h3 class="project-title">Jtech Home</h3>
+              <p class="project-desc">
+                A creative technology portal and digital branding platform crafted with an emphasis on visual
+                aesthetics, clean interface design, typography, and modern responsive layouts.
+              </p>
+              <div class="project-tech-badges">
+                <span class="chip">HTML5</span>
+                <span class="chip">CSS3</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Brand Design</span>
+                <span class="chip">UI/UX</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://jeremara.github.io/Jtechhome.io/" target="_blank" class="btn btn-primary btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- More Projects CTA -->
+        <div class="projects-more-cta" data-animate>
+          <a href="https://github.com/Jeremara/" target="_blank" class="btn btn-secondary btn-lg">
+            <i class="fab fa-github"></i>
+            <span>View More Repositories on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           10. EXPERIENCE SECTION
+           ====================================================================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-briefcase"></i> Career
+          </span>
+          <h2 class="section-title">Work & Academic Experience</h2>
+          <p class="section-subtitle">
+            Professional and academic engagements demonstrating mentorship, engineering, and creative technology.
+          </p>
+        </div>
+
+        <div class="timeline-list">
+          <!-- Experience 1: Teaching Assistant -->
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Teaching Assistant</h3>
+                  <div class="timeline-company">Marwadi University — Dept. of CSE (Data Science)</div>
+                </div>
+                <span class="timeline-period">Current Role</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Serving in an important academic capacity: guiding students through programming and data science
+                  concepts, conducting lab sessions, mentoring computational projects, facilitating technical
+                  problem-solving, and collaborating with faculty on academic delivery.
+                </p>
+                <div class="timeline-skills">
+                  <span class="chip">Academic Mentoring</span>
+                  <span class="chip">Data Science Support</span>
+                  <span class="chip">Programming Guidance</span>
+                  <span class="chip">Lab Facilitation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Frontend Developer — WDJC -->
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Frontend Developer</h3>
+                  <div class="timeline-company">WDJC</div>
+                </div>
+                <span class="timeline-period">January 2023 – Present</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Engineering clean, performant, and responsive web interfaces. Bringing user-centric digital
+                  experiences to life through modular HTML, CSS, JavaScript, and modern component development.
+                </p>
+                <div class="timeline-skills">
+                  <span class="chip">Frontend Development</span>
+                  <span class="chip">Responsive Web</span>
+                  <span class="chip">JavaScript</span>
+                  <span class="chip">UI/UX Execution</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: Graphic Designer — Jtech Home -->
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker">
+              <i class="fas fa-palette"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Graphic Designer</h3>
+                  <div class="timeline-company">Jtech Home</div>
+                </div>
+                <span class="timeline-period">June 2019 – May 2023</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Created visual identities, branding packages, logos, and promotional assets with meticulous
+                  attention to design principles, visual hierarchy, and brand cohesion.
+                </p>
+                <div class="timeline-skills">
+                  <span class="chip">Brand Design</span>
+                  <span class="chip">Visual Identity</span>
+                  <span class="chip">Typography</span>
+                  <span class="chip">Graphic Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           11. EDUCATION & CERTIFICATIONS SECTION
+           ====================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-graduation-cap"></i> Academics
+          </span>
+          <h2 class="section-title">Education & Certifications</h2>
+          <p class="section-subtitle">
+            Academic credentials, advanced degree studies, and verified industry certifications.
+          </p>
+        </div>
+
+        <!-- Education Timeline -->
+        <div class="timeline-list">
+          <!-- Master's Degree -->
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">M.Tech in Computer Science & Engineering — Data Science</h3>
+                  <div class="timeline-company">Marwadi University</div>
+                </div>
+                <span class="timeline-period">Currently Pursuing</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Graduate research and advanced coursework emphasizing machine learning theory, deep learning
+                  architectures, multimodal artificial intelligence, statistical data analytics, and computational
+                  methods.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bachelor's Degree -->
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="timeline-card-box">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Bachelor of Computer Engineering (Specialization in AI)</h3>
+                  <div class="timeline-company">Marwadi University</div>
+                </div>
+                <span class="timeline-period">2022 – 2026</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Comprehensive engineering foundation in data structures, algorithms, operating systems, database
+                  management, computer vision, and machine learning principles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Verified Certifications Grid -->
+        <div class="cert-grid" data-animate>
+          <!-- Cert 1: Data Analytics -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="cert-info">
+              <h4>Certificate in Data Analytics</h4>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+              <div class="cert-meta">2022 – 2023 &bull; Data Science & Analytics</div>
+            </div>
+          </div>
+
+          <!-- Cert 2: Python -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="cert-info">
+              <h4>Certificate in Python</h4>
+              <div class="cert-issuer">Coursera</div>
+              <div class="cert-meta">2022 – 2023 &bull; Programming & Scripting</div>
+            </div>
+          </div>
+
+          <!-- Cert 3: C & C++ -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="cert-info">
+              <h4>Certificate in C and C++</h4>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+              <div class="cert-meta">2022 – 2023 &bull; Systems & Foundations</div>
+            </div>
+          </div>
+
+          <!-- Cert 4: Canva -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="cert-info">
+              <h4>Certificate in Canva</h4>
+              <div class="cert-issuer">Coursera</div>
+              <div class="cert-meta">2023 – 2024 &bull; Visual Design & Branding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           12. TESTIMONIALS / REFERENCES SECTION
+           ====================================================================== -->
+    <section class="section" id="references">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-quote-left"></i> Endorsements
+          </span>
+          <h2 class="section-title">Professional References</h2>
+          <p class="section-subtitle">
+            Feedback and recommendations from colleagues and project collaborators.
+          </p>
+        </div>
+
+        <div class="references-grid">
+          <!-- Reference 1: Philip F. Yilliah -->
+          <div class="reference-card" data-animate>
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="reference-text">
+              "Jeremiah displays exemplary professionalism and is able to take on challenges. He learns quickly and
+              is an asset to any team."
+            </p>
+            <div class="reference-author">
+              <img src="images/philip.jpg" alt="Philip F. Yilliah" class="ref-avatar" />
+              <div>
+                <h4 class="ref-name">Philip F. Yilliah</h4>
+                <p class="ref-role">Programmer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reference 2: David Dakor -->
+          <div class="reference-card" data-animate>
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="reference-text">
+              "Jeremiah is a great co-worker and problem solver. He is quick to extend his helping hand and makes a
+              good team player."
+            </p>
+            <div class="reference-author">
+              <img src="images/David.png" alt="David Dakor" class="ref-avatar" />
+              <div>
+                <h4 class="ref-name">David Dakor</h4>
+                <p class="ref-role">Web Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+           13. CONTACT SECTION
+           ====================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-tag">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </span>
+          <h2 class="section-title">Let's Build Something Intelligent.</h2>
+          <p class="section-subtitle">
+            Whether you're interested in collaboration, research, technology, data science, or building something new,
+            I'd love to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Form -->
+          <div class="contact-card-box" data-animate>
+            <form action="https://formsubmit.co/80e2216bbe7a1452d943fa478c2f210a" method="POST">
+              <!-- Anti-spam & redirect options -->
+              <input type="hidden" name="_subject" value="New message from JK Portfolio Website" />
+              <input type="hidden" name="_captcha" value="false" />
+
+              <div class="form-group">
+                <label for="contactName" class="form-label">Your Name</label>
+                <input type="text" id="contactName" name="name" class="form-control" placeholder="Enter your name"
+                  required />
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email Address</label>
+                <input type="email" id="contactEmail" name="email" class="form-control" placeholder="name@domain.com"
+                  required />
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" name="message" class="form-control"
+                  placeholder="Write your message or collaboration inquiry..." rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Right: Direct Information & Map -->
+          <div class="contact-info-wrap" data-animate>
+            <div class="contact-info-cards">
+              <div class="contact-item-card">
+                <div class="contact-icon-bubble">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-meta">
+                  <h4>Direct Email</h4>
+                  <p>miahmara10@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item-card">
+                <div class="contact-icon-bubble">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-meta">
+                  <h4>Phone / WhatsApp</h4>
+                  <p>+231-776-272-061 / +91-9909-437-231</p>
+                </div>
+              </div>
+
+              <div class="contact-item-card">
+                <div class="contact-icon-bubble">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-meta">
+                  <h4>Academic Location</h4>
+                  <p>Marwadi University, Rajkot, Gujarat, India</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Map Embed -->
+            <div class="map-container">
+              <iframe title="Marwadi University Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17551.649541728482!2d70.79946711237174!3d22.361942049337248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c972761ce515%3A0x3651e3fe1e9df4f8!2sMarwadi%20University!5e0!3m2!1sen!2sin!4v1688721925337!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+         14. FOOTER
+         ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Jeremiah K. Kamara</h3>
+          <p>AI &bull; Data &bull; Research &bull; Technology</p>
+        </div>
+
+        <!-- Footer Socials (Facebook removed as requested) -->
+        <div class="footer-socials">
+          <a href="https://github.com/Jeremara/" target="_blank" class="social-icon-btn" title="GitHub"
+            aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/jeremiah-k-kamara-068439274/" target="_blank" class="social-icon-btn"
+            title="LinkedIn" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com/miahmara10/" target="_blank" class="social-icon-btn" title="Twitter"
+            aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/jeremiahkkamara/" target="_blank" class="social-icon-btn" title="Instagram"
+            aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Jeremiah K. Kamara. All rights reserved.</div>
+        <div>Think with data. Build with AI. Design for people.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top" type="button" title="Back to top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ======================================================================
+         15. MODAL DIALOGS
+         ====================================================================== -->
+  <!-- Research Modal: T-XMER -->
+  <div class="modal-backdrop" id="researchModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" aria-label="Close research modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <span class="section-tag"><i class="fas fa-microscope"></i> Research Scope</span>
+        <h3 class="modal-title">T-XMER: Detailed Research Overview</h3>
+        <p style="font-size: 0.9375rem; color: var(--accent-primary); font-weight: 600;">
+          Trustworthy Multimodal Emotion Recognition
+        </p>
+      </div>
+      <div class="modal-body">
+        <p>
+          <strong>Core Objective:</strong> Investigate the resilience and interpretability of multimodal emotion
+          recognition models when deployed in non-ideal environments characterized by sensor degradation, missing
+          sensory streams, and contradictory cross-modal signals.
+        </p>
+        <p>
+          <strong>Research Challenges Addressed:</strong>
+        </p>
+        <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
+          <li><strong>Noisy Modalities:</strong> Auditory background noise, visual occlusion, and textual ambiguity.
+          </li>
+          <li><strong>Missing Modalities:</strong> Sensor failure or communication latency leading to incomplete input
+            sets.</li>
+          <li><strong>Conflicting Modalities:</strong> Discrepancies between facial expressions, vocal tone, and
+            transcribed text.</li>
+          <li><strong>Explanation Faithfulness:</strong> Ensuring that attribution methods faithfully represent the true
+            decision dynamics of the fusion architecture.</li>
+        </ul>
+        <p>
+          <strong>Methodological Direction:</strong> Developing robust multimodal representation learning and diagnostic
+          benchmarking frameworks that evaluate both empirical accuracy and explainability under stress conditions.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Libemex Modal -->
+  <div class="modal-backdrop" id="libemexModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" aria-label="Close Libemex modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-header" style="text-align: center; padding-right: 0;">
+        <div style="padding: 1rem; border-radius: var(--radius-lg); margin-bottom: 1.25rem; display: inline-block;">
+          <img src="images/libemex-logo.png" alt="Libemex Logo" style="max-height: 90px; margin: 0 auto;" />
+        </div>
+        <h3 class="modal-title">Libemex — Technology &bull; Ideas &bull; Solutions</h3>
+      </div>
+      <div class="modal-body">
+        <p>
+          <strong>About Libemex:</strong> Libemex is a technology-oriented initiative focused on bridging the gap
+          between emerging artificial intelligence capabilities and tangible, human-centered digital products.
+        </p>
+        <p>
+          <strong>Core Mission:</strong> To explore practical applications of AI, software engineering, automation,
+          and digital products with the primary objective of transforming complex ideas into useful, accessible
+          solutions.
+        </p>
+        <p>
+          <strong>Key Focus Verticals:</strong>
+        </p>
+        <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
+          <li><strong>AI & Applied Machine Learning:</strong> Developing practical intelligence tools for real-world
+            tasks.</li>
+          <li><strong>Software & Web Systems:</strong> High-performance frontend interfaces and responsive web
+            applications.</li>
+          <li><strong>Automation & Workflow Tools:</strong> Streamlining repetitive operations through intelligent
+            automation.</li>
+          <li><strong>Technology Education & Knowledge Sharing:</strong> Empowering students and aspiring developers.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="scripts/main.js?ver=2.1.0"></script>
+</body>
+
 </html>
